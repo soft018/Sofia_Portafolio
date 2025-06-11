@@ -849,3 +849,28 @@
   background: var(--rosa-intenso);
   border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    padding: 0 1rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0 1.5rem;
+  }
+
+  .hero-content {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .cta-button {
+    font-size: 0.95rem;
+    padding: 10px 24px;
+  }
+}
+
